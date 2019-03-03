@@ -27,7 +27,7 @@ import mad.com.its02.fragment.TrafficFragment;
 
 /**
  * @author zhaowei
- *阿斯蒂芬
+ *
  */
 public class MainActivity extends FragmentActivity
 {
