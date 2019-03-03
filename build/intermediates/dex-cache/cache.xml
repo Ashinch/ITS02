@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4ad8321cff5fa475cb39daf387b3cb581aab17f">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta1_562e29f2147d2d7c04b336cb681c76d40cd365e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.3.1_f9b87299c15957b822b19ac28afb679a81a61d04/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_9bb72fc388ccde539625718457c892011c191873.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a9850b5963b608168ec829a608d64c01dc0d2159">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ad608c3a72958f94f9513b8540af6600b4208c37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_e4b146fd8fc39874f65acc9d28c2d77069843e3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/httpcore-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2cef8e735e306f6be94b609be815854f9cf36eb6">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.0.1_73f5dbdd44d89dd59c43355207d5ea29c4ab00e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_cb0cc57a4f61b299b0416c79b7e48f47f6e40146/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_b55fa7ed90dbf4afde2dc3ba8512e63d6b8224e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="834ef78f8c9244db8656402d77fe17014cab53e6">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_abe64af519b59de2c1b3af334a38d185c46d791e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8906548aba809a93a1468cda0bc1d777389363fb">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3772aa82cea3748f2bd3592cf269986f53845e33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b5b6e706cc0d13483f5e2b76712d714ce8b7629">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_53e4c302d5f32370bd1e7201c3a66a10d37ebffb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_ea157a407c5217d030788f2ad53dfe672a2a4fe8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/android-async-http-1.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f70e680861fdf9449819003e7799a4e9aca047f8">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-async-http-1.4.3_afbe8b1ef5bd3346426f46368dd10500c95c6c70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.3.1_2700b2fa466007bf9187e2543b8b85f4077b2f54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4ad8321cff5fa475cb39daf387b3cb581aab17f">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta1_cb186c7f60f55414ac0af6dad31c5e26709f596f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/commons-lang-2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b0236b252e86419eef20c31a44579d2aee2f0a69">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/commons-lang-2.5_da16b17aab10a5418de5980f6f01ddc595329652.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/commons-lang-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b0236b252e86419eef20c31a44579d2aee2f0a69">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang-2.5_fe498753056cccf0d60be00e434e3f7aebf1060f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/commons-logging-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ba24d5de831911b684c92cd289ed5ff826271824">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-logging-1.1_2f140f9144b1f70a065546f9f662d7b10f4245d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_a4ddcd1106241e3ea761a246ddf6e38a9a52462d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_3efc214aa3d0d7e16fb4c37e0d7133adb38f79da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/commons-logging-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ba24d5de831911b684c92cd289ed5ff826271824">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-logging-1.1_32804e07b5537de356c22258dc8268f21b1140ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta1/constraint-layout-solver-1.0.0-beta1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-beta1_e784e6d65550fa1c12f8a8de4dc9dbd442401486.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_bbf907d5f5cac5b363236e986266d000e56d95e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/httpclient-4.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="50e369a13a3e2892ff4dfd341ea17f21c9906824">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/httpclient-4.0.1_7d31c3b09b1c04a8ecb8a54eced622e19a68184d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_a7c12805f48ef9585132881b6fa0008c1b43daeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_ef564853b64ada64d93f5b77684c73ba9b41e85a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_14f95cb68c475165ffb9bc060a45c3516e14c8de.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_81feeb7d39ec14bc4c19a56ac22fbd6f1b618b9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_daa58505a3bc4411868ab8a8d89f1e6a2de8aaf3/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/httpmime-4.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9d99c393b45cb7abf8a104176fb751e32b1b4502">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/httpmime-4.0.1_3a4c635b254cb2bd0183ae98ea2e068c1a3233a5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3350fd760dd7a5839857de40b0bb3c1e675c08aa">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0169767d8e17479afa902831715af9683dcbb44a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/android-async-http-1.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f70e680861fdf9449819003e7799a4e9aca047f8">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-async-http-1.4.3_78580716d2547ab458f1326644e5efc8de908397/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b5b6e706cc0d13483f5e2b76712d714ce8b7629">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_4dfc188fe3298156c200f95343997891f07da91e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/httpcore-4.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2cef8e735e306f6be94b609be815854f9cf36eb6">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/httpcore-4.0.1_73f5dbdd44d89dd59c43355207d5ea29c4ab00e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/android-async-http-1.4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f70e680861fdf9449819003e7799a4e9aca047f8">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.3_afbe8b1ef5bd3346426f46368dd10500c95c6c70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_e4b146fd8fc39874f65acc9d28c2d77069843e3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_f9b87299c15957b822b19ac28afb679a81a61d04.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.3.1_9bb72fc388ccde539625718457c892011c191873/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_ea157a407c5217d030788f2ad53dfe672a2a4fe8/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_cb0cc57a4f61b299b0416c79b7e48f47f6e40146.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4ad8321cff5fa475cb39daf387b3cb581aab17f">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-beta1_cb186c7f60f55414ac0af6dad31c5e26709f596f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b5b6e706cc0d13483f5e2b76712d714ce8b7629">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/volley_53e4c302d5f32370bd1e7201c3a66a10d37ebffb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/httpcore-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2cef8e735e306f6be94b609be815854f9cf36eb6">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.0.1_874faea0d1e91714b7788df87ea1dd91fe6670f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/commons-lang-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b0236b252e86419eef20c31a44579d2aee2f0a69">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang-2.5_da16b17aab10a5418de5980f6f01ddc595329652/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/httpclient-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="50e369a13a3e2892ff4dfd341ea17f21c9906824">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.0.1_e5af0d05922c34aff658de5ef54e20ebe17dca14/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/commons-logging-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ba24d5de831911b684c92cd289ed5ff826271824">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/commons-logging-1.1_2f140f9144b1f70a065546f9f662d7b10f4245d4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/httpclient-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="50e369a13a3e2892ff4dfd341ea17f21c9906824">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.0.1_7d31c3b09b1c04a8ecb8a54eced622e19a68184d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_6068d62bcd9c8b8530980e63527b15b20c9cdd3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.3.1_29590a1d6af99b8c642461c6e15f7343532e22d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_ef564853b64ada64d93f5b77684c73ba9b41e85a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.3.1_a4ddcd1106241e3ea761a246ddf6e38a9a52462d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_b55fa7ed90dbf4afde2dc3ba8512e63d6b8224e8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_a7c12805f48ef9585132881b6fa0008c1b43daeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta1/constraint-layout-solver-1.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta1_e784e6d65550fa1c12f8a8de4dc9dbd442401486/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.3.1_1da57e64faf6674b17a56b55a893a238ee7d3348/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/libs/httpmime-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9d99c393b45cb7abf8a104176fb751e32b1b4502">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.0.1_3a4c635b254cb2bd0183ae98ea2e068c1a3233a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/httpmime-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9d99c393b45cb7abf8a104176fb751e32b1b4502">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.0.1_7f4985fa6f3380c9ee4a01eaccb7c79467070e31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/ash/AndroidStudioProjects/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.3.1_14f95cb68c475165ffb9bc060a45c3516e14c8de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.3.1_9e92b59ee1e0bd657752690ff185adb684bf5736/classes.dex" />
+    </item>
+
+</items>
