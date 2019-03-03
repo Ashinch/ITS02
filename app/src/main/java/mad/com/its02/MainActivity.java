@@ -16,13 +16,14 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 import mad.com.its02.fragment.BusStationFragment;
-import mad.com.its02.fragment.CarValueFragment;
-import mad.com.its02.fragment.EnvironmentFragment;
-import mad.com.its02.fragment.EtcFragment;
+import mad.com.its02.fragment.LiveFragment;
+import mad.com.its02.fragment.ViolationFragment;
+import mad.com.its02.fragment.SubwayFragment;
+import mad.com.its02.fragment.ParkFragment;
 import mad.com.its02.fragment.FragmentHome;
-import mad.com.its02.fragment.ParkingFragment;
-import mad.com.its02.fragment.SpeedFragment;
-import mad.com.its02.fragment.TrafficFragment;
+import mad.com.its02.fragment.ShuttleBusFragment;
+import mad.com.its02.fragment.RoadFragment;
+import mad.com.its02.fragment.UserFragment;
 
 
 /**
@@ -84,15 +85,15 @@ public class MainActivity extends FragmentActivity
         });
 
         actionTexts = new String[]{
-                getString(R.string.res_left_chengshijiaotong),
-                getString(R.string.res_left_gongjiaozhandian),
-                getString(R.string.res_left_chengshihuanjing),
-                getString(R.string.res_left_zhaochewei),
-                getString(R.string.res_left_honglvdengguanli),
-                getString(R.string.res_left_etcguanli),
-                getString(R.string.res_left_gaosuchesujiankong),
-                getString(R.string.res_left_zhanghuchongzhi),
-                getString(R.string.res_left_chuanyi),
+                getString(R.string.res_left_user_info),
+                getString(R.string.res_left_bus_station),
+                getString(R.string.res_left_subway),
+                getString(R.string.res_left_shuttle_bus),
+                getString(R.string.res_left_live),
+                getString(R.string.res_left_park),
+                getString(R.string.res_left_road),
+                getString(R.string.res_left_violation),
+                getString(R.string.res_left_idea),
                 getString(R.string.res_left_exit)
         };
         actionImages = new int[]{
@@ -120,9 +121,9 @@ public class MainActivity extends FragmentActivity
             public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
                 // TODO Auto-generated method stub
                 switch (arg2) {
-                    //  城市交通
+                    //  个人中心
                     case 0:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new TrafficFragment()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new UserFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
                     //  公交站点
@@ -130,39 +131,39 @@ public class MainActivity extends FragmentActivity
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new BusStationFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
-                    //  城市环境
+                    //  地铁信息
                     case 2:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new EnvironmentFragment()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new SubwayFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
-                    //  找车位
+                    //  班车预定
                     case 3:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new ParkingFragment()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new ShuttleBusFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
-                    //  红绿灯管理
+                    //  生活助手
                     case 4:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new TrafficFragment()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new LiveFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
-                    //  ETC管理
+                    //  停车场
                     case 5:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new EtcFragment()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new ParkFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
-                    //  高速车速监控
+                    //  道路监测
                     case 6:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new SpeedFragment()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new RoadFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
-                    //  账户充值
+                    //  违章查询
                     case 7:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new CarValueFragment()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new ViolationFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
 
 //                    case 8:
-//                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new CarValueFragment()).commit();
+//                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new ViolationFragment()).commit();
 //                        tV_title.setText( actionTexts[arg2] );
 //                        break;
 

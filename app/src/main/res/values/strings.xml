@@ -33,15 +33,15 @@
     <string name="rememberpwd">记住密码</string>
     <string name="register">注册</string>
 
-    <string name="res_left_chengshijiaotong">城市交通</string>
-    <string name="res_left_gongjiaozhandian">公交站点</string>
-    <string name="res_left_chengshihuanjing">城市环境</string>
-    <string name="res_left_zhaochewei">找车位</string>
-    <string name="res_left_honglvdengguanli">红绿灯管理</string>
-    <string name="res_left_etcguanli">ETC管理</string>
-    <string name="res_left_gaosuchesujiankong">高速车速监控</string>
-    <string name="res_left_zhanghuchongzhi">账户充值</string>
-    <string name="res_left_chuanyi">创意</string>
+    <string name="res_left_user_info">个人中心</string>
+    <string name="res_left_bus_station">公交站点</string>
+    <string name="res_left_subway">地铁信息</string>
+    <string name="res_left_shuttle_bus">班车预定</string>
+    <string name="res_left_live">生活助手</string>
+    <string name="res_left_park">停车场</string>
+    <string name="res_left_road">道路监测</string>
+    <string name="res_left_violation">违章查询</string>
+    <string name="res_left_idea">创意模块</string>
     <string name="res_left_exit">用户退出</string>
     <string name="info_result">通讯数据返回结果！</string>
     <string name="info_app">欢迎使用智能交通APP！
