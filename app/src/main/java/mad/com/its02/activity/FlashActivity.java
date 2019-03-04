@@ -2,12 +2,14 @@ package mad.com.its02.activity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.Window;
 import android.view.WindowManager;
 
 import mad.com.its02.R;
+import mad.com.its02.utils.MyToast;
 
 public class FlashActivity extends Activity {
 
@@ -21,6 +23,10 @@ public class FlashActivity extends Activity {
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 		WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_flash);
+
+		SharedPreferences mSetIPPreferences = getSharedPreferences("ipset", 0);
+		MyToast.getToast(FlashActivity.this,
+				mSetIPPreferences.getString("ip", "0.0.0.0"));
 
 		new CountDownTimer(1000,1000) {
 			@Override

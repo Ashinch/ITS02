@@ -2,12 +2,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    android:orientation="vertical"
     tools:context="mad.com.its02.fragment.ViolationFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <!-- 车辆列表 -->
-    <ListView android:id="@+id/list_carvalue"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#e5e5e5"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_violate_video"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="违章视频"/>
+        <Button
+            android:id="@+id/btn_violate_picture"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="违章图片"/>
+        <Button
+            android:id="@+id/btn_violate_analysis1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="数据分析1"/>
+        <Button
+            android:id="@+id/btn_violate_analysis2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="数据分析2"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/violate_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
 
 </LinearLayout>

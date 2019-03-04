@@ -1,6 +1,7 @@
 package mad.com.its02.fragment;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -14,6 +15,7 @@ import mad.com.its02.R;
 public abstract class BaseFragment extends Fragment {
     protected Context mContext;
     protected View mView;
+    protected String mBasURL;
 
     @Nullable
     @Override
@@ -24,6 +26,12 @@ public abstract class BaseFragment extends Fragment {
         initData();
         initView();
         return mView;
+    }
+
+    private void getIP() {
+        SharedPreferences sh = getActivity().getSharedPreferences("ipset", 0);
+        mBasURL = "http://" + sh.getString("ip", "192.168.1.133") + ":" + 8080
+                + "/transportservice/type/jason/action/";
     }
 
     protected abstract int setLayoutId();

@@ -61,11 +61,7 @@ public class NetUtil {
         try {
             ConnectivityManager conn = (ConnectivityManager) context
                     .getSystemService(Context.CONNECTIVITY_SERVICE);
-            if (null == conn || null == conn.getActiveNetworkInfo()) {
-                isNetworkOK = false;
-            } else {
-                isNetworkOK = true;
-            }
+            isNetworkOK = !(null == conn || null == conn.getActiveNetworkInfo());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -107,7 +103,7 @@ public class NetUtil {
                     }
                     listener.success(result);
                 }
-            };
+            }
         }.start();
     }
 
@@ -162,7 +158,7 @@ public class NetUtil {
      *
      * @return 返回服务器响应的 json 数据
      */
-    public String postData(String urlString, String params) throws MalformedURLException,
+    public String postData(String urlString, String params) throws
             IOException, JSONException {
         String result = "";
         //  输出调试信息

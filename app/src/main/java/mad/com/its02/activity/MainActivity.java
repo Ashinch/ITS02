@@ -3,6 +3,7 @@ package mad.com.its02.activity;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -25,6 +26,7 @@ import mad.com.its02.fragment.FragmentHome;
 import mad.com.its02.fragment.ShuttleBusFragment;
 import mad.com.its02.fragment.RoadFragment;
 import mad.com.its02.fragment.UserFragment;
+import mad.com.its02.utils.MyToast;
 
 
 /**
@@ -79,6 +81,8 @@ public class MainActivity extends BaseActivity
                 R.mipmap.btn_l_tag,
                 R.mipmap.btn_l_suitcase
         };
+
+
     }
 
     @Override

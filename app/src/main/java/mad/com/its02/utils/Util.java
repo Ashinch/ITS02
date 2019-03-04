@@ -2,6 +2,7 @@ package mad.com.its02.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -26,11 +27,9 @@ public class Util {
      */
 
     public static void saveSetting(String ipUrl, String ipPort,Context context) {
-        SharedPreferences spSettingSave = context.getSharedPreferences("setting", MODE_PRIVATE);// 将需要记录的数据保存在setting.xml文件中
-        SharedPreferences.Editor editor = spSettingSave.edit();
-        editor.putString("ipUrl", ipUrl);
-        editor.putString("ipPort", ipPort);
-        editor.commit();
+        SharedPreferences mSetIPPreferences = context.getSharedPreferences("ipset", 0);
+        mSetIPPreferences.edit().putString("ip", ipUrl).apply();// 提交存储
+        Log.i("IP", "saveSetting: " + ipUrl);
     }
 
     /**
@@ -38,11 +37,10 @@ public class Util {
      * @return
      */
     public static String loadSetting(Context context) {
-        SharedPreferences loadSettingLoad = context.getSharedPreferences("setting", MODE_PRIVATE);
-        //这里是将setting.xml 中的数据读出来
-        urlHttp = loadSettingLoad.getString("ipUrl", "");
-        urlPort = loadSettingLoad.getString("ipPort", "");
-        String urlSetting = "http://" + urlHttp+ ":" + urlPort + "/";
-        return urlSetting;
+        SharedPreferences mSetIPPreferences = context.getSharedPreferences("ipset", 0);
+        String ip = mSetIPPreferences.getString("ip", "192.168.1.100");
+        String urlSetting = "http://" + ip + ":" + "8080" + "/";
+        Log.i("IP", "loadSetting: " + ip);
+        return ip;
     }
 }

@@ -2,13 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="mad.com.its02.fragment.UserAccountFragment">
+    tools:context="mad.com.its02.fragment.ViolateVideoFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/tv_temp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="账户管理" />
+        android:text="违章视频" />
 
 </FrameLayout>

@@ -1,6 +1,7 @@
 package mad.com.its02.request;
 
 import android.content.Context;
+import android.util.Log;
 
 import mad.com.its02.http.NetUtil;
 import mad.com.its02.utils.MyToast;
@@ -24,6 +25,7 @@ public abstract class BaseRequest {
                 + context.getSharedPreferences("ipset", 0).getString("ip", "192.168.1.131") + ":"
                 + 8080
                 + "/transportservice/type/jason/action/";
+        Log.i("IP", "loadSetting: " + context.getSharedPreferences("ipset", 0).getString("ip", "192.168.1.131"));
     }
 
     //  连接到服务器 取回结果
