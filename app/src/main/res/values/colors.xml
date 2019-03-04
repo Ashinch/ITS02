@@ -20,4 +20,6 @@
     <color name="listfont">#878c90</color>
     <color name="listfontfocused">#ffffff</color>
     <color name="leftbg">#e8f0f8</color>
+
+    <color name="black">#000000</color>
 </resources>

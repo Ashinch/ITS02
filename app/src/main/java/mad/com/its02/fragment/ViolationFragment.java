@@ -25,11 +25,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 import mad.com.its02.R;
-import mad.com.its02.fragment.adapter.ContentAdapter;
-import mad.com.its02.fragment.adapter.IClick;
+import mad.com.its02.adapter.ContentAdapter;
+import mad.com.its02.adapter.IClick;
 import mad.com.its02.httppost.HttpThread;
 import mad.com.its02.httppost.LoadingDialog;
-import mad.com.its02.util.Util;
+import mad.com.its02.utils.Util;
 
 
 public class ViolationFragment extends Fragment {

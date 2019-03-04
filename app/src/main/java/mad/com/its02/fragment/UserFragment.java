@@ -15,9 +15,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import mad.com.its02.MainActivity;
+import mad.com.its02.activity.MainActivity;
 import mad.com.its02.R;
-import mad.com.its02.util.Util;
+import mad.com.its02.utils.Util;
 
 
 public class UserFragment extends Fragment {

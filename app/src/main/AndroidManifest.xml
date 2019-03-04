@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="mad.com.its02.FlashActivity"
+            android:name="mad.com.its02.activity.FlashActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape">
             <intent-filter>
@@ -21,10 +21,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="mad.com.its02.LoginActivity"
+            android:name="mad.com.its02.activity.LoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape" />
-        <activity android:name="mad.com.its02.MainActivity"
+        <activity android:name="mad.com.its02.activity.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape"/>
     </application>

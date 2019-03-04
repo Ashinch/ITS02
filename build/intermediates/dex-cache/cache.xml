@@ -277,7 +277,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="4b3cc6b7db8b5eaf961cfcc5dbd7a0d4b14b1548">
+        sha1="4d57eb410032d39adf251548e94c8acc5ad77a0f">
         <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0169767d8e17479afa902831715af9683dcbb44a/classes.dex" />
     </item>
     <item
