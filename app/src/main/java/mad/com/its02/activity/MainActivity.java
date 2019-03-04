@@ -31,7 +31,7 @@ import mad.com.its02.fragment.UserFragment;
  * @author zhaowei
  *
  */
-public class MainActivity extends FragmentActivity
+public class MainActivity extends BaseActivity
 {
     private SlidingPaneLayout slidepanel;
 
@@ -49,17 +49,41 @@ public class MainActivity extends FragmentActivity
     String[] actionTexts;
     int[]  actionImages ;
 
-    private android.app.FragmentManager fragmentManager;
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_main;
+    }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+    protected void initData() {
+        actionTexts = new String[]{
+                getString(R.string.res_left_user_info),
+                getString(R.string.res_left_bus_station),
+                getString(R.string.res_left_subway),
+                getString(R.string.res_left_shuttle_bus),
+                getString(R.string.res_left_live),
+                getString(R.string.res_left_park),
+                getString(R.string.res_left_road),
+                getString(R.string.res_left_violation),
+                getString(R.string.res_left_idea),
+                getString(R.string.res_left_exit)
+        };
+        actionImages = new int[]{
+                R.mipmap.btn_l_star,
+                R.mipmap.btn_l_book,
+                R.mipmap.btn_l_slideshow,
+                R.mipmap.btn_l_target,
+                R.mipmap.btn_l_download,
+                R.mipmap.btn_l_arrows,
+                R.mipmap.btn_l_share,
+                R.mipmap.btn_l_tag,
+                R.mipmap.btn_l_suitcase
+        };
+    }
 
-        setContentView(R.layout.activity_main);
+    @Override
+    protected void initView() {
         slidepanel = (SlidingPaneLayout) findViewById(R.id.slidingPL);
-
         listView = (ListView)findViewById(R.id.listView1);
         ivHome = (ImageView)findViewById(R.id.imageView_home);
         ivHome.setOnClickListener(new View.OnClickListener() {
@@ -85,29 +109,7 @@ public class MainActivity extends FragmentActivity
             }
         });
 
-        actionTexts = new String[]{
-                getString(R.string.res_left_user_info),
-                getString(R.string.res_left_bus_station),
-                getString(R.string.res_left_subway),
-                getString(R.string.res_left_shuttle_bus),
-                getString(R.string.res_left_live),
-                getString(R.string.res_left_park),
-                getString(R.string.res_left_road),
-                getString(R.string.res_left_violation),
-                getString(R.string.res_left_idea),
-                getString(R.string.res_left_exit)
-        };
-        actionImages = new int[]{
-                R.mipmap.btn_l_star,
-                R.mipmap.btn_l_book,
-                R.mipmap.btn_l_slideshow,
-                R.mipmap.btn_l_target,
-                R.mipmap.btn_l_download,
-                R.mipmap.btn_l_arrows,
-                R.mipmap.btn_l_share,
-                R.mipmap.btn_l_tag,
-                R.mipmap.btn_l_suitcase
-        };
+
 
         actionItems = new ArrayList<HashMap<String, Object>>();
         actionItems = getData();
@@ -175,7 +177,6 @@ public class MainActivity extends FragmentActivity
             }
         });
 
-        fragmentManager = getFragmentManager();
         setHome();
     }
 

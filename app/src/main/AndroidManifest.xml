@@ -27,6 +27,7 @@
         <activity android:name="mad.com.its02.activity.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape"/>
+        <activity android:name=".activity.UserActivity"/>
     </application>
 
 </manifest>

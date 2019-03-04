@@ -1,15 +1,13 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="50dp"
-    android:orientation="vertical"
-    tools:context="mad.com.its02.fragment.SubwayFragment">
+    tools:context="mad.com.its02.fragment.UserHistoryFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="班车" />
+        android:text="充值历史" />
 
-</LinearLayout>
+</FrameLayout>

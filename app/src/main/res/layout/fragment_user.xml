@@ -2,111 +2,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="50dp"
+    android:screenOrientation="landscape"
     android:orientation="vertical"
     tools:context="mad.com.its02.fragment.UserFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-
     <LinearLayout
+        android:id="@+id/topPanel"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="接口名称："
-            />
-        <TextView
-            android:id="@+id/trafic_textViewDescribe1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
+        android:layout_height="50dp"
+        android:background="#e5e5e5"
+        android:gravity="center">
 
+        <Button
+            android:id="@+id/btn_user_info"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="个人信息"/>
+        <Button
+            android:id="@+id/btn_user_account"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="账户信息"/>
+        <Button
+            android:id="@+id/btn_user_history"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="充值历史"/>
+        <Button
+            android:id="@+id/btn_user_threshold"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="阀值设置"/>
+        <Button
+            android:id="@+id/btn_user_msg"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="我的消息"/>
     </LinearLayout>
 
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/user_content"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="接口URL："
-            />
-        <TextView
-            android:id="@+id/trafic_textViewDescribe2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
+        android:layout_height="match_parent">
+    </FrameLayout>
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="接口参数："
-            />
-        <TextView
-            android:id="@+id/trafic_textViewDescribe3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="接口描述："
-            />
-        <TextView
-            android:id="@+id/trafic_textViewDescribe4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="选择车辆："
-            />
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:id="@+id/trafic_spinner"
-            android:background="@color/c1"
-            />
-
-    </LinearLayout>
-
-
-    <Button
-        android:id="@+id/trafic_query"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="查询" />
-
-    <TextView
-        android:id="@+id/trafic_result"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@color/c1"
-        android:text="" />
 
 </LinearLayout>
