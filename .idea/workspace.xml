@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b294ea98-5fe8-4f01-9f78-1ee885d4c425" name="默认的" comment="搭建项目框架">
+    <list default="true" id="b294ea98-5fe8-4f01-9f78-1ee885d4c425" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITS02.iws" />
@@ -2639,7 +2639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551665615119</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="搭建项目框架">
+      <created>1551665958193</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551665958193</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2692,9 +2699,9 @@
     <MESSAGE value="测试" />
     <MESSAGE value="测试完毕" />
     <MESSAGE value="更改文件命名" />
-    <MESSAGE value="搭建项目框架" />
     <MESSAGE value="默认" />
-    <option name="LAST_COMMIT_MESSAGE" value="默认" />
+    <MESSAGE value="搭建项目框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建项目框架" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
