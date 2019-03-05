@@ -14,7 +14,12 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import java.util.List;
+
 import mad.com.its02.R;
+import mad.com.its02.bean.User;
+import mad.com.its02.dao.UserDao;
+import mad.com.its02.utils.Session;
 import mad.com.its02.utils.Util;
 
 public class LoginActivity extends Activity implements View.OnClickListener {
@@ -27,6 +32,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 	private EditText user_pwd;
 	private ImageButton btn_login;
 	private ImageButton btn_setting;
+    private Button btn_register;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +54,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 		user_pwd = (EditText) findViewById(R.id.user_pwd);
 		btn_login = (ImageButton) findViewById(R.id.btn_login);
 		btn_setting = (ImageButton) findViewById(R.id.btn_setting);
+        btn_register = (Button) findViewById(R.id.btn_register);
 	}
 
 	/**
@@ -56,7 +63,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 	public void initData(){
 		btn_login.setOnClickListener(this);
 		btn_setting.setOnClickListener(this);
-
+        btn_register.setOnClickListener(this);
 		URL_POST = Util.loadSetting( LoginActivity.this );
 //		URL_POST =loadSetting();
 
@@ -109,34 +116,21 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 					Toast.makeText(this, "请设置服务器地址和端口！", Toast.LENGTH_LONG).show();
 				} else {
 
-					 Intent intent = new Intent();
-					 intent.setClass(LoginActivity.this, MainActivity.class);
-					 startActivity(intent);
-					 this.finish();
-
-//					 Map<String, String> paramValues = new HashMap<String, String>();
-//					 paramValues.put("user_name", userName);
-//					 paramValues.put("user_pwd",userPwd);
-//
-//					 HttpUtils.doPost(getApplicationContext(), URL_POST, "post", paramValues,
-//							 new VolleyInterface(getApplicationContext(), VolleyInterface.mListener, VolleyInterface.mErrorListtener) {
-//
-//								 @Override
-//								 public void onSuccess(String result) {
-//									 Intent intent = new Intent();
-//									 intent.setClass(LoginActivity.this, MainActivity.class);
-//									 startActivity(intent);
-//								 }
-//
-//								 @Override
-//								 public void onError(VolleyError error) {
-//									 Toast.makeText(LoginActivity.this, "错误："+error.toString(), Toast.LENGTH_LONG).show();
-//
-//								 }
-//							 });
-
+                     if (loginCheck(userName,userPwd)) {
+                         Intent intent = new Intent();
+                         intent.setClass(LoginActivity.this, MainActivity.class);
+                         startActivity(intent);
+                         this.finish();
+                     } else {
+                         Toast.makeText(this, "用户名或密码错误！", Toast.LENGTH_LONG).show();
+                     }
 				}
 				break;
+
+            case R.id.btn_register:
+                startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
+                break;
+
 			case R.id.btn_setting:
 
 				System.out.println("URL_POST:" + URL_POST);
@@ -183,4 +177,18 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 				break;
 		}
 	}
+
+    private boolean loginCheck(String username,String password) {
+        try {
+            UserDao userDao = new UserDao(LoginActivity.this);
+            List<User> users =  userDao.queryByName(username);
+            Session.user = users.get(0);
+            return (users.get(0).getPassword()).equals(password);
+        } catch(IndexOutOfBoundsException e) {
+            return false;
+        }
+    }
+
+
 }
+

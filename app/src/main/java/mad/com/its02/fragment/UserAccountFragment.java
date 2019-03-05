@@ -8,7 +8,6 @@ import mad.com.its02.request.CarSpeedRequest;
 
 public class UserAccountFragment extends BaseFragment {
     private TextView textView;
-    private String result;
 
     @Override
     protected int setLayoutId() {
@@ -17,12 +16,11 @@ public class UserAccountFragment extends BaseFragment {
 
     @Override
     protected void initData() {
-
+        textView = (TextView) mView.findViewById(R.id.tv_temp);
     }
 
     @Override
     protected void initView() {
-        textView = (TextView) mView.findViewById(R.id.tv_temp);
         CarSpeedRequest carSpeedRequest = new CarSpeedRequest(mContext);
         carSpeedRequest.setCarId(2);
         carSpeedRequest.connec(new BaseRequest.OnGetDataListener() {

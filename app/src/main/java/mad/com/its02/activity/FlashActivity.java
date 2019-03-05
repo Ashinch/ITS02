@@ -9,6 +9,8 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import mad.com.its02.R;
+import mad.com.its02.bean.User;
+import mad.com.its02.dao.UserDao;
 import mad.com.its02.utils.MyToast;
 
 public class FlashActivity extends Activity {
@@ -27,6 +29,8 @@ public class FlashActivity extends Activity {
 		SharedPreferences mSetIPPreferences = getSharedPreferences("ipset", 0);
 		MyToast.getToast(FlashActivity.this,
 				mSetIPPreferences.getString("ip", "0.0.0.0"));
+
+        createTables();
 
 		new CountDownTimer(1000,1000) {
 			@Override
@@ -50,5 +54,29 @@ public class FlashActivity extends Activity {
 		
 	}
 
-	
+    private void createTables() {
+        UserDao userDao = new UserDao(FlashActivity.this);
+
+        User user1 = new User();
+        user1.setId(1);
+        user1.setUsername("周泽齐");
+        user1.setPassword("123");
+        user1.setSex(0);
+        user1.setPermission(1);
+        user1.setPhoneNum("13326432468");
+        user1.setJoinDate("2019-3-4");
+        user1.setIdNum("312454189111072857");
+        userDao.insert(user1);
+
+        User user2 = new User();
+        user2.setId(2);
+        user2.setUsername("李春华");
+        user2.setPassword("123");
+        user2.setSex(0);
+        user2.setPermission(1);
+        user2.setPhoneNum("13326432468");
+        user2.setJoinDate("2019-3-5");
+        user2.setIdNum("420101199203197412");
+        userDao.insert(user2);
+    }
 }

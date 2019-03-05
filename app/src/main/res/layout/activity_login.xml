@@ -17,11 +17,7 @@
             android:layout_height="wrap_content"
             android:gravity="right"
             android:orientation="vertical"
-            android:paddingEnd="55dp"
-            android:paddingLeft="0dp"
-            android:paddingRight="55dp"
-            android:paddingStart="0dp"
-            android:paddingTop="50dp" >
+            android:layout_marginTop="30dp">
 
             <ImageButton
                 android:id="@+id/btn_setting"
@@ -39,65 +35,56 @@
             android:focusableInTouchMode="true"
             android:gravity="center"
             android:orientation="vertical"
-            android:layout_marginTop="50dp"
-            android:paddingEnd="45dp"
-            android:paddingLeft="0dp"
-            android:paddingRight="45dp"
-            android:paddingStart="0dp" >
-
+            android:layout_marginTop="10dp">
 
             <EditText
                 android:id="@+id/user_name"
                 android:layout_width="285dp"
-                android:layout_height="45dp"
-                android:layout_marginTop="45dp"
+                android:layout_height="60dp"
                 android:ems="10"
                 android:lines="1"
                 android:hint="请输入用户名"
-                android:text="user"
                 android:textColor="#7f7f7f"
-                android:textSize="30dip"  >
-
-            </EditText>
+                android:textSize="30dp"/>
 
             <EditText
                 android:id="@+id/user_pwd"
                 android:layout_width="285dp"
-                android:layout_height="45dp"
-                android:layout_marginTop="45dp"
+                android:layout_height="60dp"
                 android:hint="请输入密码"
                 android:ems="10"
+                android:layout_marginTop="10dp"
                 android:inputType="textPassword"
                 android:lines="1"
-                android:text="pwd"
                 android:textColor="#7f7f7f"
-                android:textSize="30dip" />
+                android:textSize="30dp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:gravity="center"
-            android:orientation="vertical" >
+            android:orientation="horizontal" >
 
             <ImageButton
                 android:id="@+id/btn_login"
                 android:layout_width="160dp"
-                android:layout_height="51sp"
-                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
                 android:background="#00000000"
                 android:scaleType="fitCenter"
                 android:src="@mipmap/loginlogin" />
-        </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:layout_marginTop="90dp">
-
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_marginLeft="30dp"
+                android:layout_width="158dp"
+                android:layout_height="50dp"
+                android:background="#50c1e9"
+                android:text="注  册"
+                android:textSize="26sp"
+                android:textColor="#ffffff"/>
         </LinearLayout>
     </LinearLayout>
 

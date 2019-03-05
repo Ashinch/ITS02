@@ -3,7 +3,7 @@
     package="mad.com.its02">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -12,22 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="mad.com.its02.activity.FlashActivity"
+            android:name=".activity.FlashActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="mad.com.its02.activity.LoginActivity"
+            android:name=".activity.LoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape" />
-        <activity android:name="mad.com.its02.activity.MainActivity"
+        <activity
+            android:name=".activity.MainActivity"
             android:label="@string/app_name"
-            android:screenOrientation="landscape"/>
-        <activity android:name=".activity.UserActivity"/>
+            android:screenOrientation="landscape" />
+        <activity android:name=".activity.RegisterActivity"></activity>
     </application>
 
 </manifest>
