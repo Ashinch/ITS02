@@ -5,11 +5,61 @@
     android:layout_margin="50dp"
     android:orientation="vertical"
     tools:context="mad.com.its02.fragment.BusStationFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="公交" />
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+
+        android:background="@color/grey"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="901路公交车"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="首：6：00  末：21：00"
+            android:textColor="@color/black"
+
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:text="当前承载能力："
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/Number"
+            />
+        <Button
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详情"
+            android:textColor="@color/black"
+            />
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bus_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
 
 </LinearLayout>

@@ -10,12 +10,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import mad.com.its02.R;
-
 public abstract class BaseFragment extends Fragment {
     protected Context mContext;
     protected View mView;
     protected String mBasURL;
+    protected Bundle mSavedInstanceState;
 
     @Nullable
     @Override
@@ -25,6 +24,7 @@ public abstract class BaseFragment extends Fragment {
         mContext = mView.getContext();
         initData();
         initView();
+        getIP();
         return mView;
     }
 

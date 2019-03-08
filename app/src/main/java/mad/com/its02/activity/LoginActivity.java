@@ -12,6 +12,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.List;
@@ -33,6 +34,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 	private ImageButton btn_login;
 	private ImageButton btn_setting;
     private Button btn_register;
+	private TextView tvAdminEnter;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +57,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 		btn_login = (ImageButton) findViewById(R.id.btn_login);
 		btn_setting = (ImageButton) findViewById(R.id.btn_setting);
         btn_register = (Button) findViewById(R.id.btn_register);
+		tvAdminEnter = (TextView) findViewById(R.id.tv_admin_enter);
 	}
 
 	/**
@@ -64,6 +67,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 		btn_login.setOnClickListener(this);
 		btn_setting.setOnClickListener(this);
         btn_register.setOnClickListener(this);
+		tvAdminEnter.setOnClickListener(this);
 		URL_POST = Util.loadSetting( LoginActivity.this );
 //		URL_POST =loadSetting();
 
@@ -175,6 +179,11 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 				});
 				urlSettingDialog.show();
 				break;
+
+            case R.id.tv_admin_enter:
+                user_name.setText("周泽齐");
+                user_pwd.setText("123");
+
 		}
 	}
 

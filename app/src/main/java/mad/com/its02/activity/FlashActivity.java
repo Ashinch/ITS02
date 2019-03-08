@@ -28,7 +28,7 @@ public class FlashActivity extends Activity {
 
 		SharedPreferences mSetIPPreferences = getSharedPreferences("ipset", 0);
 		MyToast.getToast(FlashActivity.this,
-				mSetIPPreferences.getString("ip", "0.0.0.0"));
+				mSetIPPreferences.getString("ip", "请设置IP！"));
 
         createTables();
 
@@ -58,7 +58,6 @@ public class FlashActivity extends Activity {
         UserDao userDao = new UserDao(FlashActivity.this);
 
         User user1 = new User();
-        user1.setId(1);
         user1.setUsername("周泽齐");
         user1.setPassword("123");
         user1.setSex(0);
@@ -69,10 +68,9 @@ public class FlashActivity extends Activity {
         userDao.insert(user1);
 
         User user2 = new User();
-        user2.setId(2);
         user2.setUsername("李春华");
         user2.setPassword("123");
-        user2.setSex(0);
+        user2.setSex(1);
         user2.setPermission(1);
         user2.setPhoneNum("13326432468");
         user2.setJoinDate("2019-3-5");

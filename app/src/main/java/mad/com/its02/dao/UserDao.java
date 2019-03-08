@@ -1,14 +1,16 @@
 package mad.com.its02.dao;
 
 import android.content.Context;
-
 import com.j256.ormlite.dao.Dao;
-
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
 import mad.com.its02.bean.User;
+
+
+/*
+ *      用户dao
+ */
 
 public class UserDao {
     private Context context;

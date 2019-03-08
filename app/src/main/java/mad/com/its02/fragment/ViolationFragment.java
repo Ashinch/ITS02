@@ -5,11 +5,13 @@ import android.widget.Button;
 
 import mad.com.its02.R;
 
+
 public class ViolationFragment extends BaseFragment implements View.OnClickListener{
     private Button mBtnViolateVideo;
     private Button mBtnViolatePicture;
     private Button mBtnAnalysis1;
     private Button mBtnAnalysis2;
+    private Button mBtn_violate_query;
 
     @Override
     protected int setLayoutId() {
@@ -27,11 +29,15 @@ public class ViolationFragment extends BaseFragment implements View.OnClickListe
         mBtnViolatePicture = (Button) mView.findViewById(R.id.btn_violate_picture);
         mBtnAnalysis1 = (Button) mView.findViewById(R.id.btn_violate_analysis1);
         mBtnAnalysis2 = (Button) mView.findViewById(R.id.btn_violate_analysis2);
+        mBtn_violate_query=(Button)mView.findViewById(R.id.btn_violate_query);
+
 
         mBtnViolateVideo.setOnClickListener(this);
         mBtnViolatePicture.setOnClickListener(this);
         mBtnAnalysis1.setOnClickListener(this);
         mBtnAnalysis2.setOnClickListener(this);
+        mBtn_violate_query.setOnClickListener(this);
+
 
         gotoFragment(R.id.violate_content,new ViolateVideoFragment());
     }
@@ -55,6 +61,10 @@ public class ViolationFragment extends BaseFragment implements View.OnClickListe
             case R.id.btn_violate_analysis2:
                 gotoFragment(R.id.violate_content,new ViolateAnalysis2Fragment());
                 break;
+            case R.id.btn_violate_query:
+                gotoFragment(R.id.violate_content,new ViolateQueryFragment());
+                break;
+
         }
     }
 }

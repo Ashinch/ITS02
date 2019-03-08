@@ -7,6 +7,11 @@ import com.j256.ormlite.table.DatabaseTable;
  * Created by ash on 2019/3/4.
  */
 
+
+/*
+ * 用户实体类
+ */
+
 @DatabaseTable(tableName = "tb_user")
 public class User {
 

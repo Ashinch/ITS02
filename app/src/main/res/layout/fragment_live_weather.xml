@@ -3,11 +3,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="mad.com.its02.fragment.LiveWeatherFragment">
-
+    fragment_live_weather.xml
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="天气信息" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19℃"
+            android:textSize="80sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今天:12-24℃"
+            android:textSize="20sp"
+            android:scrollbarSize="14sp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="整点天气实况"/>
+        <LinearLayout
+            android:layout_marginLeft="180dp"
+            android:id="@+id/chart_show"
+            android:layout_width="600dp"
+            android:layout_height="300dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
 
 </FrameLayout>

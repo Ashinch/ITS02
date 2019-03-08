@@ -24,6 +24,8 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    compile files('libs/MPAndroidChart-v3.0.3.jar')
+    compile files('libs/achartengine-1.1.0.jar')
     compile files('libs/volley.jar')
     compile files('libs/android-async-http-1.4.3.jar')
     compile files('libs/httpclient-4.0.1.jar')

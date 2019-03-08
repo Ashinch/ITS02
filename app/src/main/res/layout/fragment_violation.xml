@@ -33,6 +33,14 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:text="数据分析2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="违章查询"
+            android:id="@+id/btn_violate_query"
+            />
+
+
     </LinearLayout>
 
     <FrameLayout

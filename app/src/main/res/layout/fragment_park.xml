@@ -23,6 +23,13 @@
             android:layout_width="80dp"
             android:layout_height="50dp"
             android:text="收费查询"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IC卡充值"
+            android:id="@+id/ic_recharge"
+            />
     </LinearLayout>
 
     <FrameLayout

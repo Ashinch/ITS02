@@ -69,6 +69,7 @@
                     android:id="@+id/tv_join_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"
                     android:text="注册时间："/>
 
             </LinearLayout>

@@ -20,7 +20,7 @@
         <item>站台信息查询</item>
         <item>查询道路状态</item>
     </string-array>
-
+    <string name="wendutext">%1$s</string>
     <string name="app_title">智能交通</string>
     <string name="action_settings">设置</string>
     <string name="hint_name">请输入用户名</string>

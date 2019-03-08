@@ -5,9 +5,155 @@
     tools:context="mad.com.its02.fragment.UserThresholdFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="阀值提醒" />
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自动报警："/>
+            <TextView
+                android:id="@+id/kaiguan"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开"/>
+            <Switch
+                android:id="@+id/fzswitch"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="温       度："/>
+            <EditText
+                android:id="@+id/wendu_et"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="#000"
+                android:textSize="20sp"
+
+                android:background="@drawable/edit_background"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="湿       度："/>
+            <EditText
+                android:id="@+id/shidu_et"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="#000"
+                android:textSize="20sp"
+
+                android:background="@drawable/edit_background"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="光       照："/>
+            <EditText
+                android:id="@+id/guangzhao_et"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="#000"
+                android:textSize="20sp"
+
+                android:background="@drawable/edit_background"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CO2        ："/>
+            <EditText
+                android:id="@+id/co2_et"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="#000"
+                android:textSize="20sp"
+
+                android:background="@drawable/edit_background"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PM2.5    ："/>
+            <EditText
+                android:id="@+id/pm_et"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="#000"
+                android:textSize="20sp"
+
+                android:background="@drawable/edit_background"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="道路状况："/>
+            <EditText
+                android:id="@+id/daolu_et"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="#000"
+                android:textSize="20sp"
+
+                android:background="@drawable/edit_background"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/bcbt"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"/>
+    </LinearLayout>
+
 
 </FrameLayout>

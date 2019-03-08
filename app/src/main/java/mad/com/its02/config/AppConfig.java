@@ -21,6 +21,8 @@ public class AppConfig {
     public static final String GET_SENSOR_LIGHT = "GetLightSenseValue.do";
     //  请求获取 公交站台信息 地址
     public static final String GET_BUS_STATION_INFO = "GetBusStationInfo.do";
+    //  请求获取 公交载客人数 地址
+    public static final String GET_BUS_PERSONS_NUM = "GetBusPersonsNum.do";
     //  请求获取 道路拥挤状态 地址
     public static final String GET_ROAD_STATION_INFO = "GetRoadStatus.do";
 
@@ -78,6 +80,8 @@ public class AppConfig {
     public static final String KEY_BUS_STATION_ID = "BusStationId";
     //  json 键 公交车与公交站台距离
     public static final String KEY_DISTANCE = "Distance";
+    //  json 键 公交载客人数
+    public static final String KEY_PERSONS = "Persons";
 
     //  json 键 道路 id
     public static final String KEY_ROAD_ID = "RoadId";

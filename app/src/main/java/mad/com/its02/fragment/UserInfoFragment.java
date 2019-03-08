@@ -37,7 +37,7 @@ public class UserInfoFragment extends BaseFragment implements View.OnClickListen
         tvPhoneNum.setText(tvPhoneNum.getText() + Session.user.getPhoneNum());
         tvJoinDate.setText(tvJoinDate.getText() + Session.user.getJoinDate());
 
-        if (Session.user.getPermission() == 0) {
+        if (Session.user.getSex() == 0) {
             tvSex.setText(tvSex.getText() + "男");
         }else {
             tvSex.setText(tvSex.getText() + "女");

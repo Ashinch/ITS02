@@ -2,9 +2,17 @@ package mad.com.its02.activity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.SlidingPaneLayout;
@@ -17,8 +25,12 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 import mad.com.its02.R;
+import mad.com.its02.bean.Envir;
+import mad.com.its02.bean.User;
+import mad.com.its02.dao.UserDao;
 import mad.com.its02.fragment.BusStationFragment;
 import mad.com.its02.fragment.LiveFragment;
+import mad.com.its02.fragment.UserThresholdFragment;
 import mad.com.its02.fragment.ViolationFragment;
 import mad.com.its02.fragment.SubwayFragment;
 import mad.com.its02.fragment.ParkFragment;
@@ -26,7 +38,12 @@ import mad.com.its02.fragment.FragmentHome;
 import mad.com.its02.fragment.ShuttleBusFragment;
 import mad.com.its02.fragment.RoadFragment;
 import mad.com.its02.fragment.UserFragment;
+import mad.com.its02.request.BaseRequest;
+import mad.com.its02.request.EnvirRequest;
 import mad.com.its02.utils.MyToast;
+import mad.com.its02.utils.Session;
+
+import static java.lang.Thread.sleep;
 
 
 /**
@@ -40,6 +57,7 @@ public class MainActivity extends BaseActivity
     private Fragment fragment;
 
     private ListView listView;
+    private String neirong;
     SimpleAdapter simpleAdapter;
 
     ArrayList<HashMap<String, Object>> actionItems;
@@ -51,6 +69,7 @@ public class MainActivity extends BaseActivity
     String[] actionTexts;
     int[]  actionImages ;
 
+
     @Override
     protected int getLayoutId() {
         return R.layout.activity_main;
@@ -58,6 +77,8 @@ public class MainActivity extends BaseActivity
 
     @Override
     protected void initData() {
+
+
         actionTexts = new String[]{
                 getString(R.string.res_left_user_info),
                 getString(R.string.res_left_bus_station),
@@ -82,11 +103,30 @@ public class MainActivity extends BaseActivity
                 R.mipmap.btn_l_suitcase
         };
 
-
     }
 
     @Override
     protected void initView() {
+
+
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    while (true) {
+                        SharedPreferences sp=MainActivity.this.getSharedPreferences("data",MODE_PRIVATE);
+                        sp.getBoolean("kaiguan",true);//获取switch的开关状态
+                        if (sp.getBoolean("kaiguan",true)==true) {//自动报警打开的时候才会发送通知
+                            tongzhi();
+                        }
+                        try {
+                            sleep(3000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+            }).start();
+
         slidepanel = (SlidingPaneLayout) findViewById(R.id.slidingPL);
         listView = (ListView)findViewById(R.id.listView1);
         ivHome = (ImageView)findViewById(R.id.imageView_home);
@@ -198,6 +238,117 @@ public class MainActivity extends BaseActivity
             items.add(item1);
         }
         return items;
+    }
+
+
+
+    public void tongzhi()    {
+
+       //获取传感器当前值与设置的阈值进行判断
+        EnvirRequest envirRequest = new EnvirRequest(MainActivity.this);
+
+        envirRequest.connec(new BaseRequest.OnGetDataListener() {
+            @Override
+            public void onReturn(Object data) {
+                Envir envir = (Envir) data;
+
+
+
+                    //创建并发送通知
+                    NotificationManager notificationManager=(NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+                    Notification notification=new Notification();
+
+
+
+                    Notification.Builder builder=new Notification.Builder(MainActivity.this)//创建一个通知对象 
+                            .setAutoCancel(true)
+                            .setContentTitle("通知")
+                            .setContentText(neirong)
+                            .setSmallIcon(R.mipmap.icon_etc)
+                            .setWhen(System.currentTimeMillis())
+                            .setOngoing(true);
+
+                    if (envir.getTemp()>Session.envir.getTemp())
+                    {
+                        neirong="温度报警，阈值"+Session.envir.getTemp()+",当前值"+envir.getTemp()+"。";
+                        builder .setContentText(neirong);
+                        notification=builder.getNotification();
+                        notificationManager.notify(1,notification);
+                    }else
+                    {
+                        notificationManager.cancel(1);
+
+                    }
+                    if (envir.getHumi()>Session.envir.getHumi())
+                    {
+                        neirong="湿度报警，阈值"+Session.envir.getHumi()+",当前值"+envir.getHumi()+"。";
+                        builder .setContentText(neirong);
+                        notification=builder.getNotification();
+                        notificationManager.notify(2,notification);
+                    }else
+                    {
+                        notificationManager.cancel(2);
+                    }
+
+                    if (envir.getLight()>Session.envir.getLight())
+                    {
+                        neirong="光照报警，阈值"+Session.envir.getLight()+",当前值"+envir.getLight()+"。";
+                        builder .setContentText(neirong);
+                        notification=builder.getNotification();
+                        notificationManager.notify(3,notification);
+                    }
+                    else
+                    {
+                        notificationManager.cancel(3);
+                    }
+                    if (envir.getCo2()>Session.envir.getCo2())
+                    {
+                        neirong="CO2报警，阈值"+Session.envir.getCo2()+",当前值"+envir.getCo2()+"。";
+                        builder .setContentText(neirong);
+                        notification=builder.getNotification();
+                        notificationManager.notify(4,notification);
+                    }else
+                    {
+                        notificationManager.cancel(4);
+                    }
+                    if (envir.getPm()>Session.envir.getPm())
+                    {
+                        neirong="PM2.5报警，阈值"+Session.envir.getPm()+",当前值"+envir.getPm()+"。";
+                        builder .setContentText(neirong);
+                        notification=builder.getNotification();
+                        notificationManager.notify(5,notification);
+                    }else
+                    {
+                        notificationManager.cancel(5);
+                    }
+
+//        Notification notification=new Notification(R.mipmap.icon_etc,"来通知了",System.currentTimeMillis());
+//               Intent intent=new Intent(MainActivity.this, UserThresholdFragment.class);
+//       PendingIntent pi=PendingIntent.getActivity(MainActivity.this,0,intent,0);
+//        //设置事件信息
+//        notification.setLatestEventInfo(MainActivity.this, "My Title", "My Content", pi);
+//        //发出通知
+//        notification.notify(1,notification);
+
+
+
+//            Notification.Builder notificationa=new Notification.Builder(MainActivity.this)//创建一个通知对象
+//        .setAutoCancel(true)//设置通知打开后,自动消失
+//        .setSmallIcon(R.mipmap.icon_etc)//设置通知图标
+//        .setContentTitle("通知")
+//        .setContentText("湿度报警:阈值80，当前值85")
+//        .setWhen(System.currentTimeMillis());//设置发送时间
+//        notification.build();
+//        Intent intent=new Intent(MainActivity.this, UserThresholdFragment.class);
+//        PendingIntent pi=PendingIntent.getActivity(MainActivity.this,0,intent,0);
+//        notification.setContentIntent(pi);
+ //       notificationManager.notify();
+       // notification.notify();
+        //notificationManager.notify(NOTIFICATION_SERVICE,notification.build());//发送通知
+      //  notificationManager.notify(NOTIFY_ID,notification.build());
+
+            }   });
+
     }
 
 

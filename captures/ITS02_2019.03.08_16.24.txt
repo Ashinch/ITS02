@@ -1,0 +1,947 @@
+Applications Graphics Acceleration Info:
+Uptime: 156347396 Realtime: 291092441
+
+** Graphics info for pid 15895 [com.miui.home] **
+
+Stats since: 138879002133835ns
+Total frames rendered: 730
+Janky frames: 187 (25.62%)
+50th percentile: 9ms
+90th percentile: 44ms
+95th percentile: 81ms
+99th percentile: 300ms
+Number Missed Vsync: 78
+Number High input latency: 9
+Number Slow UI thread: 119
+Number Slow bitmap uploads: 40
+Number Slow issue draw commands: 78
+HISTOGRAM: 5ms=149 6ms=76 7ms=72 8ms=53 9ms=40 10ms=26 11ms=27 12ms=24 13ms=33 14ms=12 15ms=20 16ms=20 17ms=13 18ms=11 19ms=12 20ms=15 21ms=5 22ms=3 23ms=5 24ms=0 25ms=3 26ms=4 27ms=1 28ms=1 29ms=2 30ms=3 31ms=3 32ms=5 34ms=2 36ms=5 38ms=5 40ms=2 42ms=3 44ms=3 46ms=1 48ms=2 53ms=5 57ms=5 61ms=9 65ms=1 69ms=3 73ms=3 77ms=4 81ms=3 85ms=0 89ms=4 93ms=1 97ms=3 101ms=0 105ms=0 109ms=1 113ms=1 117ms=0 121ms=2 125ms=1 129ms=0 133ms=3 150ms=8 200ms=2 250ms=2 300ms=2 350ms=1 400ms=2 450ms=2 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=1 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          2747152 / 75497472
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache                576 /   131072
+  FontRenderer A8         38575 /  1048576
+    A8   texture 0        38575 /  1048576
+  FontRenderer RGBA           0 /        0
+  FontRenderer total      38575 /  1048576
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  3796304 bytes, 3.62 MB
+
+
+Pipeline=FrameBuilder
+Profile data in ms:
+
+	com.miui.home/com.miui.home.launcher.Launcher/android.view.ViewRootImpl@8d6a610 (visibility=8)
+View hierarchy:
+
+  com.miui.home/com.miui.home.launcher.Launcher/android.view.ViewRootImpl@8d6a610
+  1890 views, 1920.25 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        1890
+Total DisplayList:  1920.25 kB
+
+
+** Graphics info for pid 5368 [com.tencent.mm:tools] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 4049 [com.android.settings] **
+
+Stats since: 155429220260646ns
+Total frames rendered: 81
+Janky frames: 17 (20.99%)
+50th percentile: 6ms
+90th percentile: 30ms
+95th percentile: 89ms
+99th percentile: 300ms
+Number Missed Vsync: 9
+Number High input latency: 0
+Number Slow UI thread: 10
+Number Slow bitmap uploads: 4
+Number Slow issue draw commands: 5
+HISTOGRAM: 5ms=38 6ms=4 7ms=9 8ms=2 9ms=4 10ms=5 11ms=1 12ms=0 13ms=1 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=1 20ms=1 21ms=0 22ms=2 23ms=2 24ms=0 25ms=1 26ms=0 27ms=1 28ms=0 29ms=0 30ms=1 31ms=0 32ms=1 34ms=0 36ms=1 38ms=0 40ms=0 42ms=0 44ms=0 46ms=1 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=1 93ms=0 97ms=0 101ms=0 105ms=1 109ms=0 113ms=0 117ms=0 121ms=1 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=1 300ms=1 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache                0 / 75497472
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache                  0 /   131072
+FontRenderer doesn't exist.
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  0 bytes, 0.00 MB
+
+
+Pipeline=FrameBuilder
+Profile data in ms:
+
+	com.android.settings/com.android.settings.MiuiSettings/android.view.ViewRootImpl@66a33f7 (visibility=8)
+View hierarchy:
+
+  com.android.settings/com.android.settings.MiuiSettings/android.view.ViewRootImpl@66a33f7
+  127 views, 125.02 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        127
+Total DisplayList:  125.02 kB
+
+
+** Graphics info for pid 5300 [com.tencent.mm:toolsmp] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 19169 [com.tencent.tim] **
+
+Stats since: 138879011412012ns
+Total frames rendered: 5805
+Janky frames: 1529 (26.34%)
+50th percentile: 11ms
+90th percentile: 24ms
+95th percentile: 34ms
+99th percentile: 85ms
+Number Missed Vsync: 239
+Number High input latency: 8
+Number Slow UI thread: 832
+Number Slow bitmap uploads: 40
+Number Slow issue draw commands: 527
+HISTOGRAM: 5ms=768 6ms=472 7ms=406 8ms=345 9ms=302 10ms=301 11ms=333 12ms=305 13ms=315 14ms=290 15ms=287 16ms=205 17ms=180 18ms=152 19ms=117 20ms=135 21ms=99 22ms=82 23ms=74 24ms=78 25ms=43 26ms=39 27ms=33 28ms=37 29ms=26 30ms=25 31ms=27 32ms=37 34ms=34 36ms=28 38ms=25 40ms=20 42ms=12 44ms=15 46ms=13 48ms=16 53ms=19 57ms=15 61ms=5 65ms=6 69ms=5 73ms=9 77ms=3 81ms=5 85ms=6 89ms=7 93ms=3 97ms=0 101ms=2 105ms=2 109ms=1 113ms=1 117ms=1 121ms=0 125ms=3 129ms=1 133ms=3 150ms=14 200ms=3 250ms=3 300ms=0 350ms=1 400ms=0 450ms=4 500ms=0 550ms=0 600ms=0 650ms=2 700ms=1 750ms=0 800ms=0 850ms=1 900ms=1 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=1 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=1 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          1350552 / 75497472
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache              40000 /   131072
+  FontRenderer A8        837559 /  1048576
+    A8   texture 0       837559 /  1048576
+  FontRenderer RGBA           0 /        0
+  FontRenderer total     837559 /  1048576
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  2439128 bytes, 2.33 MB
+
+
+Pipeline=FrameBuilder
+Profile data in ms:
+
+	com.tencent.tim/com.tencent.mobileqq.activity.SplashActivity/android.view.ViewRootImpl@473a58b (visibility=8)
+View hierarchy:
+
+  com.tencent.tim/com.tencent.mobileqq.activity.SplashActivity/android.view.ViewRootImpl@473a58b
+  267 views, 216.13 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        267
+Total DisplayList:  216.13 kB
+
+
+** Graphics info for pid 26759 [com.tencent.tim:MSF] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 21135 [com.android.bluetooth] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 17855 [com.tencent.mm] **
+
+Stats since: 138879004256908ns
+Total frames rendered: 3259
+Janky frames: 701 (21.51%)
+50th percentile: 9ms
+90th percentile: 34ms
+95th percentile: 65ms
+99th percentile: 250ms
+Number Missed Vsync: 307
+Number High input latency: 4
+Number Slow UI thread: 372
+Number Slow bitmap uploads: 46
+Number Slow issue draw commands: 309
+HISTOGRAM: 5ms=868 6ms=257 7ms=225 8ms=263 9ms=208 10ms=157 11ms=130 12ms=129 13ms=125 14ms=79 15ms=88 16ms=51 17ms=53 18ms=47 19ms=31 20ms=35 21ms=25 22ms=23 23ms=15 24ms=23 25ms=11 26ms=13 27ms=19 28ms=11 29ms=12 30ms=6 31ms=8 32ms=16 34ms=14 36ms=22 38ms=15 40ms=21 42ms=11 44ms=8 46ms=3 48ms=16 53ms=16 57ms=20 61ms=18 65ms=6 69ms=10 73ms=6 77ms=7 81ms=13 85ms=3 89ms=9 93ms=2 97ms=1 101ms=3 105ms=4 109ms=4 113ms=4 117ms=4 121ms=4 125ms=5 129ms=3 133ms=4 150ms=25 200ms=11 250ms=11 300ms=4 350ms=4 400ms=3 450ms=3 500ms=0 550ms=2 600ms=2 650ms=3 700ms=3 750ms=1 800ms=1 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=1 1150ms=0 1200ms=1 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache                0 / 75497472
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache              12096 /   131072
+  FontRenderer A8        674167 /  1048576
+    A8   texture 0       674167 /  1048576
+  FontRenderer RGBA           0 /        0
+  FontRenderer total     674167 /  1048576
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  1060672 bytes, 1.01 MB
+
+
+Pipeline=FrameBuilder
+Profile data in ms:
+
+	com.tencent.mm/com.tencent.mm.ui.LauncherUI/android.view.ViewRootImpl@adfc1a6 (visibility=8)
+	com.tencent.mm/com.tencent.mm.plugin.webview.stub.WebViewStubProxyUI/android.view.ViewRootImpl@aaa37e7 (visibility=8)
+	com.tencent.mm/com.tencent.mm.plugin.wallet_index.ui.WalletBrandUI/android.view.ViewRootImpl@b2c5f94 (visibility=8)
+	com.tencent.mm/com.tencent.mm.plugin.wallet.pay.ui.WalletPayUI/android.view.ViewRootImpl@77bfa3d (visibility=8)
+	com.tencent.mm/com.tencent.mm.plugin.wallet_core.ui.WalletOrderInfoNewUI/android.view.ViewRootImpl@e365232 (visibility=8)
+View hierarchy:
+
+  com.tencent.mm/com.tencent.mm.ui.LauncherUI/android.view.ViewRootImpl@adfc1a6
+  629 views, 525.32 kB of display lists
+
+  com.tencent.mm/com.tencent.mm.plugin.webview.stub.WebViewStubProxyUI/android.view.ViewRootImpl@aaa37e7
+  9 views, 7.10 kB of display lists
+
+  com.tencent.mm/com.tencent.mm.plugin.wallet_index.ui.WalletBrandUI/android.view.ViewRootImpl@b2c5f94
+  9 views, 7.10 kB of display lists
+
+  com.tencent.mm/com.tencent.mm.plugin.wallet.pay.ui.WalletPayUI/android.view.ViewRootImpl@77bfa3d
+  58 views, 45.77 kB of display lists
+
+  com.tencent.mm/com.tencent.mm.plugin.wallet_core.ui.WalletOrderInfoNewUI/android.view.ViewRootImpl@e365232
+  86 views, 67.86 kB of display lists
+
+
+Total ViewRootImpl: 5
+Total Views:        791
+Total DisplayList:  653.15 kB
+
+
+** Graphics info for pid 27733 [com.tencent.mm:exdevice] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 14903 [com.quark.browser] **
+
+Stats since: 148328549607730ns
+Total frames rendered: 9058
+Janky frames: 1762 (19.45%)
+50th percentile: 10ms
+90th percentile: 22ms
+95th percentile: 26ms
+99th percentile: 44ms
+Number Missed Vsync: 84
+Number High input latency: 3
+Number Slow UI thread: 726
+Number Slow bitmap uploads: 23
+Number Slow issue draw commands: 1048
+HISTOGRAM: 5ms=538 6ms=542 7ms=907 8ms=1098 9ms=1071 10ms=930 11ms=666 12ms=489 13ms=375 14ms=305 15ms=251 16ms=188 17ms=156 18ms=163 19ms=170 20ms=166 21ms=137 22ms=135 23ms=110 24ms=94 25ms=79 26ms=86 27ms=53 28ms=29 29ms=45 30ms=29 31ms=21 32ms=45 34ms=26 36ms=19 38ms=20 40ms=14 42ms=6 44ms=13 46ms=14 48ms=7 53ms=8 57ms=3 61ms=7 65ms=3 69ms=4 73ms=7 77ms=2 81ms=3 85ms=1 89ms=2 93ms=0 97ms=1 101ms=1 105ms=1 109ms=2 113ms=1 117ms=0 121ms=1 125ms=0 129ms=0 133ms=0 150ms=5 200ms=3 250ms=4 300ms=0 350ms=1 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=1 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache                0 / 75497472
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache              19008 /   131072
+  FontRenderer A8        357747 /  1048576
+    A8   texture 0       357747 /  1048576
+  FontRenderer RGBA           0 /        0
+  FontRenderer total     357747 /  1048576
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  1067584 bytes, 1.02 MB
+
+
+Pipeline=FrameBuilder
+Profile data in ms:
+
+	com.quark.browser/com.ucpro.BrowserActivity/android.view.ViewRootImpl@a7accfd (visibility=8)
+View hierarchy:
+
+  com.quark.browser/com.ucpro.BrowserActivity/android.view.ViewRootImpl@a7accfd
+  224 views, 176.75 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        224
+Total DisplayList:  176.75 kB
+
+
+** Graphics info for pid 15357 [com.tencent.mm:push] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 31527 [com.google.android.webview:sandboxed_process0] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 16323 [com.xiaomi.location.fused] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3060 [com.xtuone.android.syllabus] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 16062 [com.android.updater] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3185 [com.xtuone.android.syllabus:pushcore] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 19479 [com.xiaomi.hm.health] **
+
+Stats since: 138879011498366ns
+Total frames rendered: 0
+Janky frames: 0 (nan%)
+50th percentile: 4950ms
+90th percentile: 4950ms
+95th percentile: 4950ms
+99th percentile: 4950ms
+Number Missed Vsync: 0
+Number High input latency: 0
+Number Slow UI thread: 0
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 0
+HISTOGRAM: 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache                0 / 75497472
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache                  0 /   131072
+FontRenderer doesn't exist.
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  0 bytes, 0.00 MB
+
+
+Pipeline=FrameBuilder
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 17749 [com.xiaomi.bluetooth] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3280 [com.miui.systemAdSolution] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2340 [com.miui.analytics] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3431 [com.xiaomi.market] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 4801 [com.tencent.mm:sandbox] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 4114 [android.process.media] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 16693 [com.xiaomi.joyose] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 28170 [com.miui.analytics] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3783 [com.miui.powerkeeper] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2218 [com.android.settings:remote] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2740 [com.miui.securitycenter.remote] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 1991 [com.tencent.tim:assist] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 1931 [com.tencent.tim:Daemon] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 1924 [com.xiaomi.android.dm.service] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 24118 [com.lbe.security.miui] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3747 [com.android.smspush] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 16269 [com.miui.securitycore.remote] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 29416 [com.tencent.mtt] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 18087 [com.xiaomi.metoknlp] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 17037 [com.tencent.qqpinyin] **
+Profile data in ms:
+
+	InputMethod/android.view.ViewRootImpl@f3a5d44 (visibility=8)
+	PopupWindow:461fc61/android.view.ViewRootImpl@adc9e2d (visibility=0)
+View hierarchy:
+
+  InputMethod/android.view.ViewRootImpl@f3a5d44
+  46 views, 36.30 kB of display lists
+
+  PopupWindow:461fc61/android.view.ViewRootImpl@adc9e2d
+  2 views, 1.58 kB of display lists
+
+
+Total ViewRootImpl: 2
+Total Views:        48
+Total DisplayList:  37.88 kB
+
+
+** Graphics info for pid 16222 [com.miui.wmsvc] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3007 [com.qualcomm.qti.loadcarrier] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 3001 [com.xiaomi.finddevice] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2978 [com.fingerprints.serviceext] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2966 [com.xiaomi.mircs] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2955 [com.android.nfc] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2930 [com.miui.daemon] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2923 [com.miui.contentcatcher] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2752 [com.xiaomi.xmsf] **
+
+Stats since: 138879006358262ns
+Total frames rendered: 0
+Janky frames: 0 (nan%)
+50th percentile: 4950ms
+90th percentile: 4950ms
+95th percentile: 4950ms
+99th percentile: 4950ms
+Number Missed Vsync: 0
+Number High input latency: 0
+Number Slow UI thread: 0
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 0
+HISTOGRAM: 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache                0 / 75497472
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache                  0 /   131072
+FontRenderer doesn't exist.
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  0 bytes, 0.00 MB
+
+
+Pipeline=FrameBuilder
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2301 [com.android.phone] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2285 [com.qualcomm.qcrilmsgtunnel] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2274 [com.qualcomm.qti.telephonyservice] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 2265 [.dataservices] **
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
+
+** Graphics info for pid 1946 [com.android.systemui] **
+
+Stats since: 138878999182428ns
+Total frames rendered: 9084
+Janky frames: 1881 (20.71%)
+50th percentile: 8ms
+90th percentile: 26ms
+95th percentile: 44ms
+99th percentile: 125ms
+Number Missed Vsync: 454
+Number High input latency: 25
+Number Slow UI thread: 1087
+Number Slow bitmap uploads: 113
+Number Slow issue draw commands: 917
+HISTOGRAM: 5ms=2543 6ms=831 7ms=724 8ms=603 9ms=512 10ms=448 11ms=398 12ms=349 13ms=246 14ms=223 15ms=215 16ms=151 17ms=130 18ms=144 19ms=130 20ms=121 21ms=85 22ms=88 23ms=80 24ms=58 25ms=66 26ms=53 27ms=48 28ms=35 29ms=35 30ms=26 31ms=38 32ms=47 34ms=55 36ms=52 38ms=28 40ms=38 42ms=25 44ms=28 46ms=28 48ms=30 53ms=46 57ms=35 61ms=24 65ms=23 69ms=16 73ms=19 77ms=10 81ms=10 85ms=13 89ms=11 93ms=15 97ms=5 101ms=10 105ms=8 109ms=8 113ms=7 117ms=8 121ms=6 125ms=9 129ms=5 133ms=6 150ms=39 200ms=18 250ms=12 300ms=0 350ms=2 400ms=1 450ms=1 500ms=1 550ms=0 600ms=2 650ms=0 700ms=1 750ms=1 800ms=0 850ms=1 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         11065856 / 75497472
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache    111104 /  6291456
+  PatchCache               3968 /   131072
+  FontRenderer A8        638110 /  2097152
+    A8   texture 0       634735 /  1048576
+    A8   texture 1         3375 /  1048576
+  FontRenderer RGBA           0 /        0
+  FontRenderer total     638110 /  2097152
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  13278080 bytes, 12.66 MB
+
+
+Pipeline=FrameBuilder
+Profile data in ms:
+
+	StatusBar/android.view.ViewRootImpl@3d8cec5 (visibility=0)
+	com.android.systemui/com.android.systemui.recents.RecentsActivity/android.view.ViewRootImpl@3ae401a (visibility=4)
+	AssistPreviewPanel/android.view.ViewRootImpl@6d5674b (visibility=8)
+	DockedStackDivider/android.view.ViewRootImpl@d580528 (visibility=4)
+View hierarchy:
+
+  StatusBar/android.view.ViewRootImpl@3d8cec5
+  1357 views, 1369.53 kB of display lists
+
+  com.android.systemui/com.android.systemui.recents.RecentsActivity/android.view.ViewRootImpl@3ae401a
+  25 views, 24.61 kB of display lists
+
+  AssistPreviewPanel/android.view.ViewRootImpl@6d5674b
+  5 views, 4.92 kB of display lists
+
+  DockedStackDivider/android.view.ViewRootImpl@d580528
+  4 views, 3.94 kB of display lists
+
+
+Total ViewRootImpl: 4
+Total Views:        1391
+Total DisplayList:  1403.00 kB
+
+
+** Graphics info for pid 1254 [system] **
+
+Stats since: 138878992824564ns
+Total frames rendered: 3
+Janky frames: 3 (100.00%)
+50th percentile: 350ms
+90th percentile: 850ms
+95th percentile: 850ms
+99th percentile: 850ms
+Number Missed Vsync: 0
+Number High input latency: 0
+Number Slow UI thread: 2
+Number Slow bitmap uploads: 1
+Number Slow issue draw commands: 3
+HISTOGRAM: 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=1 200ms=0 250ms=0 300ms=0 350ms=1 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=1 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache                0 / 75497472
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache                  0 /   131072
+FontRenderer doesn't exist.
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  0 bytes, 0.00 MB
+
+
+Pipeline=FrameBuilder
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0.00 kB
+
