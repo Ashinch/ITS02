@@ -5,8 +5,12 @@ import mad.com.its02.R;
 public class ShuttleBusFragment extends BaseFragment {
     @Override
     protected int setLayoutId() {
+
         return R.layout.fragment_shuttle_bus;
+
     }
+
+
 
     @Override
     protected void initData() {
@@ -15,6 +19,6 @@ public class ShuttleBusFragment extends BaseFragment {
 
     @Override
     protected void initView() {
-
+        gotoFragment(R.id.shuttle_bus_content,new ShuttleBusListViewFragment());
     }
 }

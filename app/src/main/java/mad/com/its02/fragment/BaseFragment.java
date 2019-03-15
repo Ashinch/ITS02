@@ -46,4 +46,13 @@ public abstract class BaseFragment extends Fragment {
                 .replace(content, fragment)
                 .commit();
     }
+
+    protected void gotoFragment(int content,Fragment fragment,Bundle bundle) {
+        fragment.setArguments(bundle);
+        getActivity().getSupportFragmentManager()
+                .beginTransaction()
+                .replace(content, fragment)
+                .commit();
+
+    }
 }

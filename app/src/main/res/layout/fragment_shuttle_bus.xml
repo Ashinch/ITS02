@@ -7,8 +7,10 @@
     tools:context="mad.com.its02.fragment.ShuttleBusFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <FrameLayout
+        android:id="@+id/shuttle_bus_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="地铁" />
+        android:layout_height="match_parent">
+    </FrameLayout>
 </LinearLayout>

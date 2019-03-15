@@ -3,12 +3,48 @@
 
     <item
         is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fdff0298efbce8d79cf6af2b63e0059380a70990">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0169767d8e17479afa902831715af9683dcbb44a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/android-async-http-1.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f70e680861fdf9449819003e7799a4e9aca047f8">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-async-http-1.4.3_78580716d2547ab458f1326644e5efc8de908397/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b5b6e706cc0d13483f5e2b76712d714ce8b7629">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_4dfc188fe3298156c200f95343997891f07da91e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/ash/Development/git/ITS02/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="f1f655a92cbf403962a792a1e505fc6a5fc698b6">
+        sha1="f9aadda905983d57fea9e5faf857e1cb3a030c86">
         <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ad608c3a72958f94f9513b8540af6600b4208c37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/achartengine-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/achartengine-1.1.0_8d57046fdd4d42c3b897e3ab4dbdb1f5b4fe1d8a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,12 +75,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/ormlite-android-5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f7fb5ca756f7c22d18bd61c2fa4e50ce16fdb03c">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/ormlite-android-5.1_cd3e729bdca6454f33241819477f8f50737562d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
         <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.3.1_2700b2fa466007bf9187e2543b8b85f4077b2f54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/httpcore-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2cef8e735e306f6be94b609be815854f9cf36eb6">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.0.1_874faea0d1e91714b7788df87ea1dd91fe6670f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/zxing.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="96b67e377ff4637ff1fa3bbe9ad7183773935f39">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/zxing_30f652bea928aa5d3e6913706d9a6907608bdd6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/libs/httpclient-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="50e369a13a3e2892ff4dfd341ea17f21c9906824">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.0.1_e5af0d05922c34aff658de5ef54e20ebe17dca14/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,96 +147,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_bbf907d5f5cac5b363236e986266d000e56d95e5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_81feeb7d39ec14bc4c19a56ac22fbd6f1b618b9c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_daa58505a3bc4411868ab8a8d89f1e6a2de8aaf3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="f90eb0f58de2b8894900e90fee67bdf9f774731b">
-        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0169767d8e17479afa902831715af9683dcbb44a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ash/Development/git/ITS02/app/libs/android-async-http-1.4.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="f70e680861fdf9449819003e7799a4e9aca047f8">
-        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-async-http-1.4.3_78580716d2547ab458f1326644e5efc8de908397/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ash/Development/git/ITS02/app/libs/volley.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="4b5b6e706cc0d13483f5e2b76712d714ce8b7629">
-        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_4dfc188fe3298156c200f95343997891f07da91e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ash/Development/git/ITS02/app/libs/achartengine-1.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
-        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/achartengine-1.1.0_8d57046fdd4d42c3b897e3ab4dbdb1f5b4fe1d8a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ash/Development/git/ITS02/app/libs/ormlite-android-5.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="f7fb5ca756f7c22d18bd61c2fa4e50ce16fdb03c">
-        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/ormlite-android-5.1_cd3e729bdca6454f33241819477f8f50737562d4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ash/Development/git/ITS02/app/libs/httpcore-4.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2cef8e735e306f6be94b609be815854f9cf36eb6">
-        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.0.1_874faea0d1e91714b7788df87ea1dd91fe6670f0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ash/Development/git/ITS02/app/libs/httpclient-4.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="50e369a13a3e2892ff4dfd341ea17f21c9906824">
-        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.0.1_e5af0d05922c34aff658de5ef54e20ebe17dca14/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -180,6 +162,15 @@
         revision="26.0.1"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
         <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.3.1_29590a1d6af99b8c642461c6e15f7343532e22d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_bbf907d5f5cac5b363236e986266d000e56d95e5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -201,12 +192,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_81feeb7d39ec14bc4c19a56ac22fbd6f1b618b9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/ash/Development/git/ITS02/app/libs/httpmime-4.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="9d99c393b45cb7abf8a104176fb751e32b1b4502">
         <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.0.1_7f4985fa6f3380c9ee4a01eaccb7c79467070e31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ash/Development/git/ITS02/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/ash/Development/git/ITS02/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_daa58505a3bc4411868ab8a8d89f1e6a2de8aaf3/classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -1,46 +1,34 @@
 package mad.com.its02.activity;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
 import android.app.Notification;
 import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Build;
-import android.os.Bundle;
-import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.SlidingPaneLayout;
 import android.view.View;
-import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 import mad.com.its02.R;
 import mad.com.its02.bean.Envir;
-import mad.com.its02.bean.User;
-import mad.com.its02.dao.UserDao;
 import mad.com.its02.fragment.BusStationFragment;
-import mad.com.its02.fragment.LiveFragment;
-import mad.com.its02.fragment.UserThresholdFragment;
-import mad.com.its02.fragment.ViolationFragment;
-import mad.com.its02.fragment.SubwayFragment;
-import mad.com.its02.fragment.ParkFragment;
 import mad.com.its02.fragment.FragmentHome;
-import mad.com.its02.fragment.ShuttleBusFragment;
+import mad.com.its02.fragment.LiveFragment;
+import mad.com.its02.fragment.ParkFragment;
 import mad.com.its02.fragment.RoadFragment;
+import mad.com.its02.fragment.ShuttleBusFragment;
+import mad.com.its02.fragment.SubwayFragment;
 import mad.com.its02.fragment.UserFragment;
+import mad.com.its02.fragment.ViolationFragment;
 import mad.com.its02.request.BaseRequest;
 import mad.com.its02.request.EnvirRequest;
-import mad.com.its02.utils.MyToast;
 import mad.com.its02.utils.Session;
 
 import static java.lang.Thread.sleep;
@@ -170,41 +158,49 @@ public class MainActivity extends BaseActivity
                 switch (arg2) {
                     //  个人中心
                     case 0:
+                        slidepanel.closePane();
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new UserFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
                     //  公交站点
                     case 1:
+                        slidepanel.closePane();
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new BusStationFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
                     //  地铁信息
                     case 2:
+                        slidepanel.closePane();
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new SubwayFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
                     //  班车预定
                     case 3:
+                        slidepanel.closePane();
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new ShuttleBusFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
                     //  生活助手
                     case 4:
+                        slidepanel.closePane();
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new LiveFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
                     //  停车场
                     case 5:
+                        slidepanel.closePane();
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new ParkFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
                     //  道路监测
                     case 6:
+                        slidepanel.closePane();
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new RoadFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;
                     //  违章查询
                     case 7:
+                        slidepanel.closePane();
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new ViolationFragment()).commit();
                         tV_title.setText( actionTexts[arg2] );
                         break;

@@ -38,6 +38,8 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
         etIdNum = (EditText) findViewById(R.id.et_id_num);
         btnRegister = (Button) findViewById(R.id.btn_register);
         tvGotoLogin = (TextView) findViewById(R.id.tv_goto_login);
+
+        MyToast.getToastLong(RegisterActivity.this,getIntent().getStringExtra("esa"));
     }
 
     @Override

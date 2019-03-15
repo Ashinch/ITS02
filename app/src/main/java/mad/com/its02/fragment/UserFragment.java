@@ -1,6 +1,5 @@
 package mad.com.its02.fragment;
 
-import android.support.v4.app.Fragment;
 import android.view.View;
 import android.widget.Button;
 
@@ -20,16 +19,16 @@ public class UserFragment extends BaseFragment implements View.OnClickListener{
 
     @Override
     protected void initData() {
-
-    }
-
-    @Override
-    protected void initView() {
         mBtnUserInfo = (Button) mView.findViewById(R.id.btn_user_info);
         mBtnAccount = (Button) mView.findViewById(R.id.btn_user_account);
         mBtnThreshold = (Button) mView.findViewById(R.id.btn_user_threshold);
         mBtnHistory = (Button) mView.findViewById(R.id.btn_user_history);
         mBtnUserMSG = (Button) mView.findViewById(R.id.btn_user_msg);
+    }
+
+    @Override
+    protected void initView() {
+
 
         mBtnUserInfo.setOnClickListener(this);
         mBtnAccount.setOnClickListener(this);

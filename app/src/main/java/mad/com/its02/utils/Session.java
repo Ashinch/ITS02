@@ -1,5 +1,7 @@
 package mad.com.its02.utils;
 
+import android.graphics.Bitmap;
+
 import mad.com.its02.bean.Envir;
 import mad.com.its02.bean.User;
 
@@ -10,4 +12,5 @@ import mad.com.its02.bean.User;
 public class Session {
     public static User user;
     public static Envir envir;
+    public static Bitmap bmpQRCode;
 }

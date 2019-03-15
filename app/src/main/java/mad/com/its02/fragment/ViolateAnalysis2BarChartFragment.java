@@ -71,7 +71,6 @@ public class ViolateAnalysis2BarChartFragment extends  BaseFragment {
         ArrayList<BarDataSet>dataSets=new ArrayList<BarDataSet>();
         dataSets.add(bardataset);
         BarData data=new BarData();
-        ;
         for (int i=0;i<dataSets.size();i++) {
             data.addDataSet(dataSets.get(i));
         }

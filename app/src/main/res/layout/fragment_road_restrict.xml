@@ -37,7 +37,9 @@
                 android:layout_marginLeft="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="关"/>
+                android:text="关"
+                android:textSize="26dp"
+                android:checked="false"/>
 
         </LinearLayout>
 
@@ -47,7 +49,8 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="30dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:visibility="gone">
 
             <TextView
                 android:layout_width="wrap_content"

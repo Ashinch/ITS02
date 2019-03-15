@@ -25,7 +25,6 @@
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:text="充值金额："/>
-
     <TextView
         android:id="@+id/item_date"
         android:layout_width="match_parent"

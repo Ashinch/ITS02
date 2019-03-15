@@ -63,5 +63,8 @@ public abstract class BaseActivity extends FragmentActivity  {
     //  抽象方法 获取布局 id
     protected abstract int getLayoutId();
 
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 }
