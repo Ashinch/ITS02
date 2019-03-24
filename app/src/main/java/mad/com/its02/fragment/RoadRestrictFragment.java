@@ -146,6 +146,7 @@ public class RoadRestrictFragment extends BaseFragment implements View.OnClickLi
     }
 
     private void beginRestrict() {
+
         Calendar calendar = new GregorianCalendar();
         isRes = calendar.get(Calendar.DATE) % 2 == 0 ? 0 : 1;
         if (isRes == 0) {

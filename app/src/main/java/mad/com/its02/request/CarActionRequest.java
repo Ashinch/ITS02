@@ -2,10 +2,10 @@ package mad.com.its02.request;
 
 import android.content.Context;
 
-import mad.com.its02.config.AppConfig;
-
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import mad.com.its02.config.AppConfig;
 
 //  小车动作请求类 继承基本请求类
 public class CarActionRequest extends BaseRequest {
@@ -66,5 +66,6 @@ public class CarActionRequest extends BaseRequest {
             e.printStackTrace();
         }
         return result;
+
     }
 }

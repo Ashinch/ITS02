@@ -70,7 +70,8 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
     }
 
     @Override // 数据库版本更新时调用的方法
-    public void onUpgrade(SQLiteDatabase database, ConnectionSource connectionSource, int oldVersion, int newVersion) {
+    public void onUpgrade(SQLiteDatabase database, ConnectionSource connectionSource,
+                          int oldVersion, int newVersion) {
         try {
             TableUtils.dropTable(connectionSource, User.class, true);
             TableUtils.dropTable(connectionSource, DepositRecord.class, true);

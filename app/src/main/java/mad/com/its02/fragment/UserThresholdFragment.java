@@ -128,6 +128,7 @@ public class UserThresholdFragment extends BaseFragment implements View.OnClickL
         editor.putInt("guangzhao",guangzhao);
         editor.putInt("co2",co2);
         editor.putInt("pm2",pm2);
+
         editor.commit();
 
         Session.envir.setCo2(co2);
